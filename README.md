@@ -1,25 +1,7 @@
+<!--
 ################################################################################
 # DOCUMENT INFORMATION
 ################################################################################
-# Document Name    : README.md
-# Document Full Path & name : README.md
-# Author         : Bruno DELNOZ
-# Email          : bruno.delnoz@protonmail.com
-# Version        : V1.0
-# Date  / Time   : 2026-02-09 19:22:16
-# Project : brave-extension-ChatGPT-SOLO-Rules-Control-Center
-# Short description : Project overview
-################################################################################
-# Document Name    : README.md
-# Document Full Path & name : README.md
-# Author         : Bruno DELNOZ
-# Email          : bruno.delnoz@protonmail.com
-# Version        : V1.0
-# Date  / Time   : 2026-02-09 19:22:16
-# Project : brave-extension-ChatGPT-SOLO-Rules-Control-Center
-# Short description : Project overview
-################################################################################
-<!--
 Document Name: README.md
 Document Full Path & Name: /mnt/data2_78g/Security/scripts/Projects_web/brave-extension-ChatGPT-SOLO-Rules-Control-Center/README.md
 Author: Bruno DELNOZ
