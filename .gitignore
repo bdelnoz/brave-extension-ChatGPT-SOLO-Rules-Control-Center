@@ -1,4 +1,8 @@
 .docs/
+.exports/
+.export/
+.docs/
+.zip/
 
 
 # Runtime / temporary files

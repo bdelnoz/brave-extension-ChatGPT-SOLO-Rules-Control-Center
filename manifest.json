@@ -1,0 +1,49 @@
+{
+  "manifest_version": 3,
+  "name": "NoXoZ SOLO Control Center",
+  "short_name": "SOLO Control",
+  "description": "NoXoZ SOLO Control Center v3.0.0: account Custom Instructions plus live public SOLO discovery and desired-state synchronization/unload in the current chat.",
+  "version": "3.0.0",
+  "version_name": "v3.0.0",
+  "minimum_chrome_version": "116",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting",
+    "tabs",
+    "downloads"
+  ],
+  "host_permissions": [
+    "https://raw.githubusercontent.com/*",
+    "https://api.github.com/*",
+    "https://chatgpt.com/*",
+    "https://chat.openai.com/*"
+  ],
+  "action": {
+    "default_title": "SOLO Control Center v3.0.0"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chatgpt.com/*",
+        "https://chat.openai.com/*"
+      ],
+      "js": [
+        "content-solo.js"
+      ],
+      "css": [
+        "solo-style.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
